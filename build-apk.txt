@@ -1,0 +1,4 @@
+cd android && gradlew.bat assembleRelease
+cd app/build/outputs/apk
+rm SMSSS.apk
+zipalign -v 4 app-release-unaligned.apk SMSSS.apk

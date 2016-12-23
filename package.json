@@ -1,0 +1,31 @@
+{
+  "name": "smsss-phone",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start"
+  },
+  "dependencies": {
+    "moment": "latest",
+    "react": "15.3.1",
+    "react-native": "0.33.0",
+    "react-native-fcm": "^2.5.0",
+    "react-native-material-design": "^0.3.7",
+    "react-native-vector-icons": "^2.1.0",
+    "react-redux": "^4.4.5",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.7.4",
+    "redux-thunk": "^2.1.0",
+    "sails.io.js": "^0.13.8",
+    "socket.io": "^1.4.8",
+    "socket.io-client": "^1.4.8",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^6.1.2",
+    "eslint": "^3.5.0",
+    "eslint-config-react": "^1.1.1",
+    "eslint-plugin-react": "^6.2.1",
+    "eslint-plugin-react-native": "^2.0.0"
+  }
+}
